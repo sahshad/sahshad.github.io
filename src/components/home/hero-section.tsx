@@ -57,7 +57,7 @@ export function HeroSection() {
             I build scalable, reliable, and user-focused software with a strong focus on clean architecture, performance, and thoughtful engineering.
           </p>
 
-          <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
+          <div className="flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-8 pt-4">
             <a
               href="#projects"
               onClick={(e) => handleScroll(e, "projects")}
